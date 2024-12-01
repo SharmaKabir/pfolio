@@ -19,38 +19,8 @@ export default function About() {
           At the crossroads of AI, Web3, and Finance, I focus on creating user
           experiences that make complex ideas accessible.
         </p>
-        <p className="text-start  text-muted-foreground lg:px-6">
-          Currently, I'm leading product design at a stealth AI startup that's
-          rethinking how we interact with money. I'm also steering the design
-          team at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://vela.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Vela Exchange
-          </a>
-          , a decentralized platform for perpetual trading. As a co-founder,
-          designer, and developer at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://swoop.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Swoop Exchange
-          </a>
-          , I've helped build a meta-aggregation engine used daily by thousands
-          of users.
-        </p>
-        <p className="text-start text-muted-foreground lg:px-6">
-          Across all the applications I've been involved with, I've had the
-          privilege to contribute in facilitating billions in transaction
-          volume. I believe in making technology feel human—designing
-          applications and experiences that are seamless extensions of
-          ourselves, serving real needs with simplicity and clarity.
-        </p>
+        
+        
       </div>
     </section>
   );
