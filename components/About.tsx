@@ -11,13 +11,11 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          Throughout my journey from coding to design, I've been guided by a
-          simple belief:{" "}
-          <span className="text-white">
-            technology should feel natural and intuitive.
-          </span>{" "}
-          At the crossroads of AI, Web3, and Finance, I focus on creating user
-          experiences that make complex ideas accessible.
+        Hi, I'm Kabir Sharma, a passionate Computer Science Engineering student with a stellar academic record, currently holding a 9.50 CGPA in my third year. I am deeply enthusiastic about web development and am currently learning the PERN stack (PostgreSQL, Express, React, Node.js) to build scalable and efficient full-stack applications.
+
+With a strong foundation in programming and a drive to solve real-world problems, I aim to create innovative solutions that make an impact. Let's connect and create something amazing together!{" "}
+         
+          
         </p>
         
         

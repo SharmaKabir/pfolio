@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, FileText} from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 
@@ -46,42 +46,24 @@ export default function Nav() {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
         <div className="w-full flex lg:items-center lg:justify-start">
-          <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
+          {/* <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
             <AvatarImage src="./avatar.png" />
             <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
-              AM
+              KS
             </AvatarFallback>
-          </Avatar>
+          </Avatar> */}
         </div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Hi, I&#39;m Kabir.
         </h1>
         <h2 className="text-xl lg:text-start">
-          Product designer, developer, founder.
+          CS Student / Web Dev
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I help innovative startups in AI, Web3, and Finance craft exceptional
-          user experiences, translating complex technologies into intuitive
-          interfaces that resonate with humans.
+         Open to Software Engineer, Full-Time and Intern roles.
         </p>
       </div>
-      <nav className="lg:flex hidden">
-        <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">
-          {navItems.map((item: NavItem) => {
-            const { linkClass, indicatorClass, textClass } = getNavItemClasses(
-              item.href
-            );
-            return (
-              <li key={item.name} className="group">
-                <a href={item.href} className={`py-3 ${linkClass}`}>
-                  <span className={indicatorClass}></span>
-                  <span className={textClass}>{item.name}</span>
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
@@ -101,8 +83,39 @@ export default function Nav() {
             <Linkedin className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
+        <Button variant="outline" size="icon">
+          <a
+            href="https://linkedin.com/in/kabir21sharma"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FileText className="h-[1.2rem] w-[1.2rem]" />
+          </a>
+        </Button>
         <ModeToggle />
       </ul>
+
+
+
+
+      <nav className="lg:flex hidden">
+        <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">
+          {navItems.map((item: NavItem) => {
+            const { linkClass, indicatorClass, textClass } = getNavItemClasses(
+              item.href
+            );
+            return (
+              <li key={item.name} className="group">
+                <a href={item.href} className={`py-3 ${linkClass}`}>
+                  <span className={indicatorClass}></span>
+                  <span className={textClass}>{item.name}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+     
     </header>
   );
 }
