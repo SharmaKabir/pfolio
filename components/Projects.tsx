@@ -15,7 +15,7 @@ const jobProjects = [
   {
     imagePath: "/ipl-win-prediction.png",
     title: "IPL Win Prediction",
-    description: "This project predicts the outcome of IPL matches in real-time using machine learning. By analyzing match features, team performance, and player statistics, the model provides accurate win probabilities. It incorporates robust data preprocessing, feature engineering, and a logistic regression model to ensure reliable predictions.",
+    description: "Achieved an accurancy of 79.8% in predicting matches. Analyzed match features, team performance, and player statistics. The project incorporates robust data preprocessing, feature engineering, and a logistic regression model to ensure reliable predictions.",
     skills: [
       "Jupyter Notebook",
       "Machine Learning",
@@ -26,6 +26,19 @@ const jobProjects = [
     ],
     link: "https://ipl-win-probability-prediction.streamlit.app/",
   },
+  {
+    imagePath: "/caffein-ss2.png",
+    title: "Caffien",
+    description: "Developed a coffee tracking app using Firebase and React. Implemented features like logging coffee consumption, calculating caffeine levels, cost analysis, and responsive design. Created a custom hook for global state and data management.",
+    skills: [
+      "Firebase",
+      "React",
+      "FantaCSS"
+      
+    ],
+    link: "https://caffien.netlify.app/",
+  },
+  
   
  
  
@@ -74,6 +87,8 @@ export default function Projects() {
                 </CardFooter>
               </CardContent>
             </Card>
+            {/* ////////////////////////// */}
+            
           </a>
         ))}
       </>

@@ -60,7 +60,8 @@ export default function Nav() {
           CS Student / Web Dev
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-         Open to Software Engineer, Full-Time and Intern roles.
+         Open to SWE/SDE Intern roles.<br/>
+         Open to relocation (batch of 2026).
         </p>
       </div>
 
