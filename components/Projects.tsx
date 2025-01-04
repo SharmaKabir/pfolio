@@ -11,37 +11,85 @@ import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
+  {
+    imagePath: "/chatapp.png",
+    title: "Realtime Chat App",
+    description:
+      "Built a full-stack real-time chat application using TypeScript, React, and Socket.io. Implemented user authentication with JWT, real-time messaging, and PostgreSQL database with Prisma ORM. Features include online status indicators, message history, and gender-based avatar generation.",
+    skills: [
+      "TypeScript",
+      "React",
+      "Tailwind",
+      "PostgreSQL (NeonDB + Prisma)",
+      "Socket.io",
+    ],
+    link: "https://realtime-chat-mtes.onrender.com/signup",
+  },
 
   {
     imagePath: "/ipl-win-prediction.png",
     title: "IPL Win Prediction",
-    description: "Achieved an accurancy of 79.8% in predicting matches. Analyzed match features, team performance, and player statistics. The project incorporates robust data preprocessing, feature engineering, and a logistic regression model to ensure reliable predictions.",
+    description:
+      "Achieved an accurancy of 79.8% in predicting matches. Analyzed match features, team performance, and player statistics. The project incorporates robust data preprocessing, feature engineering, and a logistic regression model to ensure reliable predictions.",
     skills: [
       "Jupyter Notebook",
       "Machine Learning",
       "Pandas",
       "NumPy",
       "Logistical Regression",
-      
     ],
     link: "https://ipl-win-probability-prediction.streamlit.app/",
   },
   {
-    imagePath: "/caffein-ss2.png",
+    imagePath: "/coffee.png",
     title: "Caffien",
-    description: "Developed a coffee tracking app using Firebase and React. Implemented features like logging coffee consumption, calculating caffeine levels, cost analysis, and responsive design. Created a custom hook for global state and data management.",
-    skills: [
-      "Firebase",
-      "React",
-      "FantaCSS"
-      
-    ],
+    description:
+      "Developed a coffee tracking app using Firebase and React. Implemented features like logging coffee consumption, calculating caffeine levels, cost analysis, and responsive design. Created a custom hook for global state and data management.",
+    skills: ["Firebase", "React", "FantaCSS"],
     link: "https://caffien.netlify.app/",
   },
-  
-  
- 
- 
+
+  {
+    imagePath: "/tyrepitstop.png",
+    title: "F1 Tyre Pit  Strategy Simulator",
+    description:
+      "Tool for optimizing tyre strategies in a racing simulation. Evaluates different tyre combinations and determines the best pit stop strategy to minimize total lap time over a given number of laps and also plots the lap times for visual comparision.",
+    skills: ["Python", "NumPy", "Matplotlib"],
+    link: "https://github.com/SharmaKabir/f1-tyre-pit-strategy",
+  },
+  {
+    imagePath: "/sign-and-draw.png",
+    title: "Sign and Draw",
+    description: "Canvas Web App allowing users to draw and download quickly.",
+    skills: ["HTML", "CSS", "JavaScipt"],
+    link: "https://sharmakabir.github.io/sign-fast/",
+  },
+
+  {
+    imagePath: "/quoteapp.png",
+    title: "Quote Generator",
+    description:
+      "Fully Responsive Quote Generator built with HTML, CSS and vanilla JS and integrated Twitter API to help users share their favourite quotes",
+    skills: ["HTML", "CSS", "JavaScipt"],
+    link: "https://chimerical-brigadeiros-b12887.netlify.app/",
+  },
+
+  {
+    imagePath: "/infinity-scroll.png",
+    title: "Infinity Scroll",
+    description:
+      "Built an infinite scroll image gallery using Unsplash API. Implemented dynamic image loading on scroll.",
+    skills: ["HTML", "CSS", "JavaScript", "Unsplash API"],
+    link: "https://eclectic-bombolone-013fb5.netlify.app/",
+  },
+  {
+    imagePath: "/calculator.png",
+    title: "Calculator",
+    description:
+      "Fully functional calculator web app built using Vanilla JavaScript, HTML and CSS.",
+    skills: ["HTML", "CSS", "JavaScript"],
+    link: "https://hilarious-jelly-32d7af.netlify.app/",
+  },
 ];
 
 export default function Projects() {
@@ -88,7 +136,6 @@ export default function Projects() {
               </CardContent>
             </Card>
             {/* ////////////////////////// */}
-            
           </a>
         ))}
       </>
