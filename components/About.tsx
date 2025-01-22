@@ -29,11 +29,12 @@ export default function About() {
             <i className="devicon-express-original  text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-react-original colored text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-nodejs-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-firebase-plain colored text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-javascript-plain colored text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-cplusplus-plain colored text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-python-plain colored text-3xl hover:scale-110 transition-transform"></i>
             
-            <i className="devicon-postman-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            
             {/* <i className="devicon-postman-plain colored text-3xl hover:scale-110 transition-transform"></i> */}
           
           </div>
