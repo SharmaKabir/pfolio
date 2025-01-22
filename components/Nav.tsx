@@ -57,11 +57,11 @@ export default function Nav() {
           Kabir Sharma
         </h1>
         <h2 className="text-xl lg:text-start">
-          CS Student / Web Dev
+          CSE Student (Batch of 2026)
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
          Open to SWE/SDE Intern roles.<br/>
-         Open to relocation (batch of 2026).
+         Open to relocation.
         </p>
       </div>
 
@@ -85,14 +85,30 @@ export default function Nav() {
           </a>
         </Button>
         <Button variant="outline" size="icon">
-          <a
-            href="https://linkedin.com/in/kabir21sharma"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FileText className="h-[1.2rem] w-[1.2rem]" />
-          </a>
-        </Button>
+  <a
+    href="https://drive.google.com/uc?export=download&id=1PPtKY0g_YXx7V6i6eMT5oDQXNHQBrIWw"
+    target="_blank"
+    rel="noopener noreferrer"
+    download="Kabir_Sharma_Resume.pdf"
+    onClick={(e) => {
+      // Prevent default behavior
+      e.preventDefault();
+      
+      // Open PDF viewer in new tab
+      window.open("https://drive.google.com/file/d/1PPtKY0g_YXx7V6i6eMT5oDQXNHQBrIWw/view", "_blank");
+      
+      // Trigger download
+      const downloadLink = document.createElement('a');
+      downloadLink.href = "https://drive.google.com/uc?export=download&id=1PPtKY0g_YXx7V6i6eMT5oDQXNHQBrIWw";
+      downloadLink.download = "Kabir_Sharma_Resume.pdf";
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+    }}
+  >
+    <FileText className="h-[1.2rem] w-[1.2rem]" />
+  </a>
+</Button>
         <ModeToggle />
       </ul>
 

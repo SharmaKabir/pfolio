@@ -11,15 +11,36 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-        Hi, I'm Kabir Sharma, a passionate Computer Science Engineering student with a stellar academic record, currently holding a 9.50 CGPA in my third year. I am deeply enthusiastic about web development and am currently learning the PERN stack (PostgreSQL, Express, React, Node.js) to build scalable and efficient full-stack applications.
-
-With a strong foundation in programming and a drive to solve real-world problems, I aim to create innovative solutions that make an impact. Let's connect and create something amazing together!{" "}
-         
-          
-        </p>
+        Hello, I am Kabir Sharma, a pre-final year (6th semester) CSE student at SRM Institute of Science and Technology. I hold a CGPA of 9.5, and I am actively looking for Summer 2025 internship opportunities. I am open to relocation, and ready to work in-person, hybrid or remote. <br/><br/>  I am keen to delve into Full Stack and Data Engineering roles, and I have experience in building web applications using PERN (PostgreSQL, ExpressJS, ReactJS, NodeJS). I am also familiar with C++, Python and SQL. <br/><br/> 
         
+        
+        What excites me most about the tech industry is its endless potential for creativity and impact. I love the challenge of turning ideas into reality. Every project I work on is an opportunity to learn, grow, and contribute something valuable.
+        <br/><br/>
+        Beyond technical skills, I try to bring all my efforts to the table. As the former Head Boy of my school, I honed my ability to guide, collaborate, and drive initiatives to success—qualities that have translated seamlessly into my academic and professional journey. 
+        <br/><br/>
+        
+        
+        </p>
+        <div className="flex flex-col gap-4 lg:px-6">
+          
+          <div className="flex flex-wrap gap-6 items-center">
+            <i className="devicon-postgresql-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-prisma-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-express-original  text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-react-original colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-nodejs-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-javascript-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-cplusplus-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-python-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            
+            <i className="devicon-postman-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            {/* <i className="devicon-postman-plain colored text-3xl hover:scale-110 transition-transform"></i> */}
+          
+          </div>
+        </div>
         
       </div>
+      
     </section>
   );
 }

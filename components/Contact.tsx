@@ -16,8 +16,7 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          If you&#39;re considering my contribution, have a question, or just
-          want to say hi, you can count on hearing back from me!
+          sharmakabir204@gmail.com | +91-8447959131
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
@@ -32,6 +31,7 @@ export default function Contact() {
               <Mail className="dark:text-white text-muted h-6 w-6" />
               <p className="ml-3 text-2xl dark:text-white text-muted">
                 Say hello
+                
               </p>
             </div>
           </Button>

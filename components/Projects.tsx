@@ -48,6 +48,14 @@ const jobProjects = [
     skills: ["Firebase", "React", "FantaCSS"],
     link: "https://caffien.netlify.app/",
   },
+  {
+    imagePath: "/popularity_dist.png",
+    title: "Spotify Analytics ETL (Ongoing)",
+    description:
+      "Building an ETL pipeline to extract, transform, and load Spotify data into a PostgreSQL database. The project aims to analyze user listening habits, track trends, and generate personalized recommendations.",
+    skills: ["Python", "SQL"],
+    link: "https://github.com/SharmaKabir/spotify-analytics-ETL",
+  },
 
   {
     imagePath: "/tyrepitstop.png",
@@ -82,14 +90,14 @@ const jobProjects = [
     skills: ["HTML", "CSS", "JavaScript", "Unsplash API"],
     link: "https://eclectic-bombolone-013fb5.netlify.app/",
   },
-  {
-    imagePath: "/calculator.png",
-    title: "Calculator",
-    description:
-      "Fully functional calculator web app built using Vanilla JavaScript, HTML and CSS.",
-    skills: ["HTML", "CSS", "JavaScript"],
-    link: "https://hilarious-jelly-32d7af.netlify.app/",
-  },
+  // {
+  //   imagePath: "/calculator.png",
+  //   title: "Calculator",
+  //   description:
+  //     "Fully functional calculator web app built using Vanilla JavaScript, HTML and CSS.",
+  //   skills: ["HTML", "CSS", "JavaScript"],
+  //   link: "https://hilarious-jelly-32d7af.netlify.app/",
+  // },
 ];
 
 export default function Projects() {
