@@ -86,20 +86,17 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
   <a
-    href="https://drive.google.com/uc?export=download&id=1PPtKY0g_YXx7V6i6eMT5oDQXNHQBrIWw"
-    target="_blank"
-    rel="noopener noreferrer"
-    download="Kabir_Sharma_Resume.pdf"
+    href="#"
     onClick={(e) => {
-      // Prevent default behavior
       e.preventDefault();
-      
-      // Open PDF viewer in new tab
-      window.open("https://drive.google.com/file/d/1PPtKY0g_YXx7V6i6eMT5oDQXNHQBrIWw/view", "_blank");
-      
-      // Trigger download
-      const downloadLink = document.createElement('a');
-      downloadLink.href = "https://drive.google.com/uc?export=download&id=1PPtKY0g_YXx7V6i6eMT5oDQXNHQBrIWw";
+      // Open drive preview in new tab
+      window.open(
+        "https://drive.google.com/file/d/1ivTQj0nCcaa9qxu3oxfFX38HpT71WS0I/view",
+        "_blank"  
+      );
+      // Download local PDF
+      const downloadLink = document.createElement("a");
+      downloadLink.href = "/KabirSharma_Resume_23Jan2025.pdf";  // From public folder
       downloadLink.download = "Kabir_Sharma_Resume.pdf";
       document.body.appendChild(downloadLink);
       downloadLink.click();
