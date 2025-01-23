@@ -24,8 +24,9 @@ export default function About() {
         <div className="flex flex-col gap-4 lg:px-6">
           
           <div className="flex flex-wrap gap-6 items-center">
-            <i className="devicon-postgresql-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            
             <i className="devicon-prisma-plain colored text-3xl hover:scale-110 transition-transform"></i>
+            <i className="devicon-postgresql-plain colored text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-express-original  text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-react-original colored text-3xl hover:scale-110 transition-transform"></i>
             <i className="devicon-nodejs-plain colored text-3xl hover:scale-110 transition-transform"></i>
