@@ -91,12 +91,12 @@ export default function Nav() {
       e.preventDefault();
       // Open drive preview in new tab
       window.open(
-        "https://drive.google.com/file/d/1ivTQj0nCcaa9qxu3oxfFX38HpT71WS0I/view",
+        "https://drive.google.com/file/d/1JL3lbQNHwr3KUS9Cxv-BPcWOjOgLIZic/view?usp=sharing",
         "_blank"  
       );
       // Download local PDF
       const downloadLink = document.createElement("a");
-      downloadLink.href = "/KabirSharma_Resume_23Jan2025.pdf";  // From public folder
+      downloadLink.href = "/RESUME-LATEST-APR25.pdf";  
       downloadLink.download = "Kabir_Sharma_Resume.pdf";
       document.body.appendChild(downloadLink);
       downloadLink.click();
