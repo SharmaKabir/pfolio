@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-        Hello, I am Kabir Sharma, a pre-final year (6th semester) CSE student at SRM Institute of Science and Technology. I hold a CGPA of 9.6, and I am actively looking for Summer 2025 internship opportunities. I am open to relocation, and ready to work in-person, hybrid or remote. <br/><br/>  I am keen to delve into Full Stack and Data Engineering roles, and I have experience in building web applications using PERN (PostgreSQL, ExpressJS, ReactJS, NodeJS). I am also familiar with C++, Python and SQL. <br/><br/> 
+        Hello, I am Kabir Sharma, a final year CSE student at SRM Institute of Science and Technology. I hold a CGPA of 9.64/10, and I am actively looking for full time/internship opportunities. I am open to relocation, and ready to work in-person, hybrid or remote. <br/><br/>  I am keen to delve into Full Stack and Data Engineering roles, and I have experience in building web applications using PERN (PostgreSQL, ExpressJS, ReactJS, NodeJS). I am also familiar with C++, Python and SQL. <br/><br/> 
         
         
         What excites me most about the tech industry is its endless potential for creativity and impact. I love the challenge of turning ideas into reality. Every project I work on is an opportunity to learn, grow, and contribute something valuable.

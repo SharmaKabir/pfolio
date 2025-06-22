@@ -12,10 +12,23 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
+    timeline: "Jun 2025 — July 2025",
+    currentPosition: "Intern",
+    place: "Comviva, a Tech Mahindra company",
+    previousPositions: [],
+    description:
+      "Presently contributing as an intern at Comviva.",
+    skills: [
+      "Expo",
+      "React Native",
+      "Java Springboot",
+    ],
+  },
+  {
     timeline: "May 2024 — July 2024",
     currentPosition: "Website Development Intern",
     place: "Space Story",
-    previousPositions: [""],
+    previousPositions: [],
     description:
       "Contributed to the design and development of the organization's website, optimized its responsiveness across various devices, resolved technical issues promptly, and collaborated effectively with the team to meet project milestones.",
     skills: [
