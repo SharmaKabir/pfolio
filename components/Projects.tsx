@@ -12,11 +12,27 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
+    imagePath: "/gen.png",
+    title: "AI SaaS Web App",
+    description:
+    "Developed a multi-tool AI platform by integrating third-party APIs to power 6 distinct features. Utilised Clerk to implement secure user authentication and gating feature access",
+    
+    skills: [
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "PostgreSQL (NeonDB + Prisma)",
+      "Google Gemini",
+      "Clerk"
+    ],
+    link: "https://gen-five-wheat.vercel.app/",
+  },
+  {
     imagePath: "/chatapp.png",
     title: "Realtime Chat App",
     description:
-      "Built a full-stack real-time chat application using TypeScript, React, and Socket.io. Implemented user authentication with JWT, real-time messaging, and PostgreSQL database with Prisma ORM. Features include online status indicators, message history, and gender-based avatar generation.",
-    skills: [
+      "Built a full-stack real-time chat application using TypeScript, React, and Socket.io. Implemented user authentication with JWT, real-time messaging, and PostgreSQL database with Prisma ORM. Features include online status indicators, message history, and gender-based avatar generation. a multi-tool AI platform by integrating third-party APIs to power 6 distinct features. Utilised Clerk to implement secure user authentication and gating feature access",
+      skills: [
       "TypeScript",
       "React",
       "Tailwind",

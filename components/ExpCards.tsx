@@ -17,7 +17,7 @@ const jobPositions = [
     place: "Comviva, a Tech Mahindra company",
     previousPositions: [],
     description:
-      "Presently contributing as an intern at Comviva.",
+      "Built UI components for an e-commerce app using React Native and Expo, following wireframes and brand guidelines.",
     skills: [
       "Expo",
       "React Native",

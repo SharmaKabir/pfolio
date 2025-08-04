@@ -91,7 +91,7 @@ export default function Nav() {
       e.preventDefault();
       // Open drive preview in new tab
       window.open(
-        "https://drive.google.com/file/d/1uwkKyLbi4apOe9dqJZdnN08pzhcyVN6Y/view?usp=sharing",
+        "https://drive.google.com/file/d/115223lFu6qiERwpLm58YISPtuEv_9pc6/view?usp=sharing",
         "_blank"  
       );
       // Download local PDF
